@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
-import './index.css';
+// FIX: ផ្លាស់ប្តូរទៅប្រើ Relative Path សម្រាប់ការ Load CSS
+import './index.css'; 
 import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext.jsx'; 
 
